@@ -220,3 +220,97 @@ while number > 0:
     number -= 1
 else:
     print("while-end of loop")
+
+
+print("Functions\n")
+
+def greet():
+    print('Hello World from Python')
+
+def goodbye():
+    print('Thank you')
+    print('Take care,we would see some other time')
+
+greet()
+
+goodbye()
+
+
+print('Anonymous Function')
+
+def accept(cd):
+    cd('Hello Main World')
+
+hello = lambda : print('Hello World Anonymous')
+
+hello()
+accept(lambda x : print(x))
+
+print('Parameters')
+
+#required parameter
+def greet(name):
+    print('Hello', name)
+
+greet('Jephthah\n')
+
+
+#default parameter
+def add(num1=10, num2=15):
+    result = num1 + num2
+    print('Result', result)
+
+
+add()
+add(55)
+add(45, 55)
+
+
+#keyword argument
+def minus(num1, num2):
+    result = num1 - num2
+    print('Result:', result)
+
+minus(num1=45, num2=15)
+minus(num2=45, num1=75)
+
+
+#arbitrary argument
+def print_value(*args):
+    print("*Args:", args)
+
+print_value()
+print_value(1)
+print_value(1, 2)
+print_value(1, 2, 3)
+
+
+#arbitrary/variadic keyword parameter
+def print_value(**kargs):
+    print("*Args:", kargs['num1'], kargs['num2'])
+
+print_value(num1=1, num2=2)
+
+
+print('\nreturn statement')
+def add_and_return(num1, num2):
+    result = num1 + num2
+    return result
+
+res = add_and_return(50, 50)
+print('50 + 50', res)
+
+def check_number(number):
+    if number > 5:
+        return
+    print('Number:', number)
+
+
+check_number(1)
+check_number(3)
+check_number(5)
+check_number(6)
+check_number(10)
+
+
+
