@@ -550,3 +550,199 @@ print('copy:', copied_animals)
 animals.clear()
 print('clear:', animals)
 print('clear:', copied_animals)
+
+
+#Object Oriented Programming
+
+#class
+class Animal:
+
+    name = "Cow"
+    group = "Mammal"
+
+    def get_name_group(self):
+        return self.name + ":" + self.group
+
+# objects
+cow = Animal()
+print(cow.name, cow.group, cow.get_name_group())
+
+
+# Instance Variable
+
+class Animal:
+
+    group = "Mammal"
+    can_walk = True
+
+    def __init__(self, name):
+        self.name = name
+
+cat = Animal("Cat")
+dog = Animal("Dog")
+
+print(cat.name)
+print(dog.name)
+
+print(cat.group)
+print(dog.group)
+
+#Method and Constructor
+class Animal:
+
+    group = "Mammal"
+    leg_count = 4
+
+    def __init__(self):
+        self.name = "unknown"
+
+
+class Vehicle:
+
+    can_fly = False
+    tire_count = 4
+
+    # parameterized constructor
+    def __init__(self, make):
+        self.make = make
+
+    def set_tire_count(self, count):
+        self.tire_count = count
+
+    def set_flayable(self, cfly):
+        self.can_fly = cfly
+
+    def get_name_tire_count(self):
+       return self.make + ":" + str(self.tire_count)
+
+    def check_type(self):
+        if self.make == "Aeroplane":
+            print("This is a plane")
+        else:
+            print("This is likely a car")
+
+
+animal = Animal()
+print("Animal:", animal.name, animal.group)
+
+toyota = Vehicle("Toyota")
+print("\nVehicle:", toyota.make, toyota.can_fly)
+toyota.check_type()
+
+lexus = Vehicle("Lexus")
+print("\nVehicle:", lexus.make, lexus.tire_count)
+lexus.check_type()
+
+plane = Vehicle("Aeroplane")
+plane.set_tire_count(3)
+plane.set_flayable(True)
+print("\nVehicle:", plane.make, plane.tire_count, plane.can_fly)
+print(plane.get_name_tire_count())
+
+plane.check_type()
+
+
+# Inheritance
+class Vehicle:
+
+    model = "unknown"
+    make = "unknown"
+    production_year = "1990"
+
+    def print_vehicle_info(self):
+        print("\nVehicle {", self.make, ",", self.model + "}")
+
+class Car(Vehicle):
+
+    wheel_count = 4
+
+    def __init__(self, model, make):
+        self.model = model
+        self.make = make
+
+class Plane(Vehicle):
+
+    make = "Aeroplane"
+    model = "Boeing"
+
+vehicle1 = Vehicle()
+vehicle1.print_vehicle_info()
+
+car1 = Car("Toyota", "Camery")
+car1.print_vehicle_info()
+
+plane1 = Plane()
+plane1.print_vehicle_info()
+
+
+# Polymorphism
+
+class Vehicle:
+
+    def drive_direction(self):
+        print("Vehicle: Drive Forward")
+
+class Plane(Vehicle):
+
+    def drive_direction(self):
+        print("\nPlane: Drive Upward")
+
+class Submarine(Vehicle):
+
+    def drive_direction(self):
+        print("Submarine: Drive downward")
+
+class Rocket(Vehicle):
+    pass
+
+plane = Plane()
+plane.drive_direction()
+
+vehicle = Vehicle()
+vehicle.drive_direction()
+
+submarine = Submarine()
+submarine.drive_direction()
+
+rocket = Rocket()
+rocket.drive_direction()
+
+
+
+# Encapsulation
+class User:
+
+    __first_name = "Testify"
+    __last_name = "QA"
+    __attendance = 1
+
+    def get_name(self):
+        return "\nUser=" + self.__first_name
+
+    def get_attendance(self):
+        value = self.__attendance * 20
+        return value
+
+
+user = User()
+print(user.get_name())
+print(user.get_attendance())
+
+
+# Data Astraction
+
+class LoginSession:
+
+    __email = "user@test.com"
+    __password = "passwprd"
+
+    def get_email(self):
+        return self.__email
+
+    def get_password(self):
+        return "********"
+
+session = LoginSession()
+print(session.get_email())
+print(session.get_password())
+
