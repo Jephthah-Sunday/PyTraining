@@ -1,4 +1,5 @@
 #line comment
+import abc
 
 ...
 #string
@@ -746,3 +747,75 @@ session = LoginSession()
 print(session.get_email())
 print(session.get_password())
 
+
+# Abstract Class and Interface
+
+class IWebElement(metaclass=abc.ABCMeta):
+
+    @abc.abstractmethod
+    def get_name(self):
+        pass
+
+    @abc.abstractmethod
+    def set_style(self, style):
+        pass
+
+
+class DivElement(IWebElement):
+
+    def get_name(self):
+        return "\ndiv"
+
+    def set_style(self, style):
+        print ("Div Style:", style)
+
+
+class SpanElement(IWebElement):
+
+    def get_name(self):
+        return "\nspan"
+
+    def set_style(self, style):
+        print ("Span Style:", style)
+
+
+class ButtonElement(IWebElement):
+
+    def get_name(self):
+        return "\nbutton"
+
+    def set_style(self, style):
+        print ("Button Style:", style)
+
+div_element = DivElement()
+print(div_element.get_name())
+div_element.set_style("width: 100px; height: 100px;")
+
+span_element = SpanElement()
+print(span_element.get_name())
+div_element.set_style("border: 1px; solid red;")
+
+button_element = ButtonElement()
+print(button_element.get_name())
+div_element.set_style("font-size: 20px; height: 100px;")
+
+
+
+class Calculator:
+
+    def add(num1, num2):
+        return num1 + num2
+
+    @staticmethod
+    def multiply(num1, num2):
+        return num1 * num2
+
+    @staticmethod
+    def divide(num1, num2):
+        return num1 / num2
+
+Calculator.add = staticmethod(Calculator.add)
+
+print("\n1 + 1 =", Calculator.add(1, 1))
+print("2 * 2 =", Calculator.multiply(2, 2))
+print("9 / 3 =", Calculator.divide(9, 3))
