@@ -6,6 +6,6 @@ class Human:
     def __init__(self, Human):
         self.Human = Human
 
-print(Human.can_walk)
-print(Human.leg_count)
+print(Human.leg_count, ":",  Human.can_walk )
+
 

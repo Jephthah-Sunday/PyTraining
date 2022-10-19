@@ -4,7 +4,7 @@ class Human:
     gender = ""
 
     def get_gender(self):
-        return "Unknown "
+        return "Unknown"
 
 
 class Man(Human):

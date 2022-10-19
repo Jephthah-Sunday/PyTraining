@@ -4,7 +4,7 @@ class Human:
     can_walk = True
 
     def get_description(self):
-        return "This is human"
+        return "\nThis is human"
 
     def get_leg_count(self, count):
         self.leg_count = count
@@ -14,7 +14,7 @@ class Human:
 man = Human()
 man.get_leg_count(2)
 print(man.get_description())
-print("\nHuman:", man.leg_count, "Legs")
+print("Human:", man.leg_count, "Legs")
 
 
 
