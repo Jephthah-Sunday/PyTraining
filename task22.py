@@ -5,5 +5,6 @@ class Hunt:
     def get_weapon(self):
         return "Not Available"
 
+
 hunt = Hunt()
-print(hunt.get_weapon())
+print("Weapon for Hunt:", hunt.get_weapon())

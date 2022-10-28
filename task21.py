@@ -4,22 +4,28 @@ class Human:
     gender = ""
 
     def get_gender(self):
-        return "Unknown " + str(self.gender)
+       return "Unknown"
 
 
 class Woman(Human):
     gender = "Female"
 
+    def get_gender(self):
+       return self.gender
+
 
 class Man(Human):
     gender = "Male"
 
+    def get_gender(self):
+       return self.gender
+
 
 human = Human()
-print(human.get_gender())
+print("Human:", human.get_gender())
 
 man = Man()
-print(man.get_gender())
+print("Man:", man.get_gender())
 
 woman = Woman()
-print(woman.get_gender())
+print("Man:", woman.get_gender())

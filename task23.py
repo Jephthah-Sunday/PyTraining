@@ -1,6 +1,6 @@
 class User:
 
-    __password = "passwprd"
+    __password = "passward"
 
 
     def get_password(self):

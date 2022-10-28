@@ -1,7 +1,7 @@
 class Human:
 
     leg_count = 4
-    gender = ""
+    gender = "Male"
 
     def get_gender(self):
         return "Unknown"
@@ -14,4 +14,4 @@ human = Human()
 print(human.get_gender())
 
 man = Man()
-print(man.get_gender())
+print(man.gender)
