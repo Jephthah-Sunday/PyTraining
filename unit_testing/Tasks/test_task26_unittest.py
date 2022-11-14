@@ -1,6 +1,6 @@
 import unittest
 
-import task26
+from unit_testing.Tasks import task26
 
 
 class Testcompare_strings(unittest.TestCase):

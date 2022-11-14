@@ -1,6 +1,6 @@
 import unittest
 
-import bodmas
+from unit_testing.unittestTrainingLog import bodmas
 
 
 class TestBodmas(unittest.TestCase):

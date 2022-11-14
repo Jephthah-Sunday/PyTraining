@@ -1,4 +1,4 @@
-import bodmas
+from unit_testing.unittestTrainingLog import bodmas
 
 
 def test_addition():
