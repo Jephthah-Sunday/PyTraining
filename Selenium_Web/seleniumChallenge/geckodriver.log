@@ -1,0 +1,72 @@
+1668520369738	geckodriver	INFO	Listening on 127.0.0.1:56775
+1668520372950	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56776" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofilelOQ4Xc"
+1668520388056	Marionette	INFO	Marionette enabled
+1668520388074	Marionette	INFO	Listening on port 51724
+Read port: 51724
+WebDriver BiDi listening on ws://127.0.0.1:56776
+1668520389324	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofilelOQ4Xc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56776/devtools/browser/e2682332-de24-4da0-a481-ee9692a0d914
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1668521401512	Marionette	INFO	Stopped listening on port 51724
+1668525037745	geckodriver	INFO	Listening on 127.0.0.1:52046
+1668525040895	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52047" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileXVhV6W"
+1668525047490	Marionette	INFO	Marionette enabled
+1668525047514	Marionette	INFO	Listening on port 52060
+Read port: 52060
+WebDriver BiDi listening on ws://127.0.0.1:52047
+1668525048505	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileXVhV6W\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52047/devtools/browser/67db31e9-3e0d-4159-bc3f-0335ebd93842
+1668525557684	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1668527311318	Marionette	INFO	Stopped listening on port 52060
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 15376, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 15376, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+ole.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile7z0vgY\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+DevTools listening on ws://127.0.0.1:62438/devtools/browser/6972411b-64c5-4193-b870-c02293ce8286
+JavaScript error: https://static.files.bbci.co.uk/orbit/644077edc7f09faed9dd44fb4c1fae48/js/require.min.js, line 101: Error: Load timeout for modules: domReady,compiled,idcta-v2/statusbar,idcta-v2/idcta-1
+http://requirejs.org/docs/errors.html#timeout
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://static.files.bbci.co.uk/orbit/644077edc7f09faed9dd44fb4c1fae48/js/require.min.js, line 101: Error: Script error for "idcta-v2/config", needed by: idcta-v2/analytics, idcta-v2/id-config
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: https://pagead2.googlesyndication.com/bg/api979c0EJY6QQNrS8TSWwgKrshdt-vRMqEtOqF-hYY.js line 2 > eval line 4892 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://static.files.bbci.co.uk/orbit/644077edc7f09faed9dd44fb4c1fae48/js/require.min.js, line 101: Error: Load timeout for modules: domReady,compiled,idcta-v2/statusbar,idcta-v2/idcta-1
+http://requirejs.org/docs/errors.html#timeout
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+ command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58393" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileHFGVz0"
+1668525352689	Marionette	INFO	Marionette enabled
+1668525352696	Marionette	INFO	Listening on port 58406
+Read port: 58406
+WebDriver BiDi listening on ws://127.0.0.1:58393
+1668525352927	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileHFGVz0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58393/devtools/browser/218dcb02-4972-4dba-980f-f4b805b5c192
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/api979c0EJY6QQNrS8TSWwgKrshdt-vRMqEtOqF-hYY.js line 2 > eval line 788 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\DELL\AppData\Local\Temp\rust_mozprofileHFGVz0\bookmarkbackups\bookmarks-2022-11-15_11_3jEjfsmPCZeVCN+mqLbkiw==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+9gz"
+1668525552944	Marionette	INFO	Marionette enabled
+1668525552956	Marionette	INFO	Listening on port 52536
+Read port: 52536
+Read port: 52536
+Read port: 52536
+WebDriver BiDi listening on ws://127.0.0.1:52517
+1668525556241	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileWVZ9gz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52517/devtools/browser/84ad1684-8a05-4d7a-ac33-1cf5195f9742
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
