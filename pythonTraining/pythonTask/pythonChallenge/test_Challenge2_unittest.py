@@ -1,12 +1,12 @@
 import unittest
 
-from pythonTraining.pythonTask.pythonChallenge import Task2
+from pythonTraining.pythonTask.pythonChallenge import Challenge2
 
 
 class TestPowerofNumber(unittest.TestCase):
 
     def test_powerOfNumber(self):
-        self.assertEqual(Task2.powerOfNumber(4, 2), 16)
+        self.assertEqual(Challenge2.powerOfNumber(4, 2), 16)
 
 
 
